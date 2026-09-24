@@ -1,216 +1,221 @@
-<h1 align="center">
-  <img src="https://github.com/annuaire-entreprises-data-gouv-fr/site/blob/main/public/images/annuaire-entreprises-paysage-large.gif" width="400px" />
-</h1>
+<div align="center">
 
-<a href="https://github.com/annuaire-entreprises-data-gouv-fr/site/blob/main/LICENSE"><img src="https://img.shields.io/github/license/annuaire-entreprises-data-gouv-fr/site.svg?color=green" alt="License Badge"></a>
-[![CI (lint, unit-tests, end2end, a11y)](https://github.com/annuaire-entreprises-data-gouv-fr/site/actions/workflows/pre-merge.yml/badge.svg)](https://github.com/annuaire-entreprises-data-gouv-fr/site/actions/workflows/pre-merge.yml)
-[![External API check](https://github.com/annuaire-entreprises-data-gouv-fr/site/actions/workflows/external-api-test.yml/badge.svg)](https://github.com/annuaire-entreprises-data-gouv-fr/site/actions/workflows/external-api-test.yml)
-[![Deploy](https://github.com/annuaire-entreprises-data-gouv-fr/site/actions/workflows/deploy.yml/badge.svg)](https://github.com/annuaire-entreprises-data-gouv-fr/site/actions/workflows/deploy.yml)
-<a href="https://annuaire-entreprises.data.gouv.fr/administration"><img src="https://img.shields.io/badge/Page-partenaires-blue.svg" alt="Partenaires Badge"></a>
-<a href="https://annuaire-entreprises.data.gouv.fr/donnees/sources"><img src="https://img.shields.io/badge/Page-datasources-blue.svg" alt="Sources de données Badge"></a>
-<a href="https://annuaire-entreprises.data.gouv.fr/donnees/api"><img src="https://img.shields.io/badge/Page-statuts-blue.svg" alt="Statut des API Badge"></a>
-<a href="https://annuaire-entreprises.data.gouv.fr/historique-des-modifications"><img src="https://img.shields.io/badge/Page-changelog-blue.svg" alt="Changelog Badge"></a>
-<a href="https://annuaire-entreprises.data.gouv.fr/a-propos/stats"><img src="https://img.shields.io/badge/Page-stats-blue.svg" alt="Statistiques Badge"></a>
+# SAEJEE · Université Européenne de Paris
 
-Dépôt du site [L'Annuaire des Entreprises](https://annuaire-entreprises.data.gouv.fr). Pour [l’API Recherche d’Entreprises](https://www.data.gouv.fr/fr/dataservices/api-recherche-dentreprises/), consultez le [dépôt de l’API](https://github.com/annuaire-entreprises-data-gouv-fr/search-api).
+### Plateforme Technologique d’Exploitation des Données Ouvertes SIRENE
+**Annuaire orienté établissements SIRET — Moteur cartographique et d'export documentaire instantané**
 
-Ce site met à disposition des citoyens et des agents les données ouvertes (open-data) des entreprises, associations et administrations dotées d'un n° SIREN/SIRET.
+[![Instance en Production](https://img.shields.io/badge/Production-universiteeuropeenne.paris%2Fmentions--legales%2F-blue?style=for-the-badge&logo=google-chrome)](https://universiteeuropeenne.paris/mentions-legales/)
+[![Portail Institutionnel](https://img.shields.io/badge/Portail_Officiel-universiteeuropeenne.paris-0055A5?style=for-the-badge)](https://universiteeuropeenne.paris/)
+[![SIRET](https://img.shields.io/badge/SIRET-399_107_937_00019-success?style=for-the-badge)](https://universiteeuropeenne.paris/mentions-legales/)
+[![Licence](https://img.shields.io/badge/Licence-MIT-green?style=for-the-badge)](LICENSE)
 
-Ce site ré-utilise les données des différentes [administrations partenaires](https://annuaire-entreprises.data.gouv.fr/administration).
+</div>
 
-## Contenu
+---
 
-### Comment contribuer ?
+## 🏛️ Cadre Institutionnel, Impressum & Propriété Intellectuelle
 
-Vous êtes un contributeur exterieur ? [Soumettez-nous une nouvelle issue ou une pull request.](https://github.com/annuaire-entreprises-data-gouv-fr/site/issues/new/choose)
+Ce dépôt héberge le code source de l'instance haute performance et du fork indépendant de [l’Annuaire des Entreprises](https://github.com/annuaire-entreprises-data-gouv-fr/site) (développé initialement par la DINUM sous licence libre MIT). 
 
-Vous faîtes partie de l’équipe contenu ? [Consultez le tutoriel.](https://github.com/annuaire-entreprises-data-gouv-fr/site/tree/main/CONTRIBUTE-CONTENT.md)
+Ce système constitue l'infrastructure d'expérimentation, de validation de conformité légale et d'ingénierie logicielle développée par l'institution universitaire dans le cadre de ses programmes de recherche (2023–2026).
 
-### Vie privée et siren protégés
+### 📋 Identification Légale de l'Exploitant et de la Marque
 
-Pour protéger un siren et en limiter la diffusion [suivez la procédure](https://annuaire-entreprises.data.gouv.fr/faq/supprimer-donnees-personnelles-entreprise).
+Les programmes universitaires et déploiements numériques sont dispensés sous la responsabilité juridique et institutionnelle de l'établissement :
 
-## Dépôts liés 🏗
+| Rubrique Légale | Mention Officielle |
+| :--- | :--- |
+| **Entité juridique responsable** | **UNIVERSITÉ EUROPÉENNE DE PARIS** *(Association déclarée au Répertoire National)* |
+| **Marque commerciale & d'usage** | **SAEJEE** *(Marque protégée par le droit d'auteur et de propriété intellectuelle)* |
+| **État administratif** | **En activité** — Établissement Siège |
+| **Numéro SIRET** | **`399 107 937 00019`** |
+| **Numéro SIREN** | **`399 107 937`** |
+| **Numéro de TVA Intracommunautaire** | **`FR55399107937`** |
+| **Code APE / NAF** | **`94.99Z`** · Autres organisations fonctionnant par adhésion volontaire (Paris) |
+| **Siège social & Adresse professionnelle** | **229 Boulevard Voltaire, 75011 Paris, France** |
+| **Portail Web Officiel** | [https://www.universiteeuropeenne.paris](https://www.universiteeuropeenne.paris) |
+| **Instance publique déployée** | [https://universiteeuropeenne.paris/mentions-legales/](https://universiteeuropeenne.paris/mentions-legales/) |
+| **Informations légales & Impressum** | [Consulter l'Impressum complet](https://www.universiteeuropeenne.paris/fr/impressum.html) |
 
-Voici la liste des dépôts de code du projet [L'Annuaire des Entreprises](https://annuaire-entreprises.data.gouv.fr) :
+### 🎓 Gouvernance Académique & Contacts Institutionnels
+- **Rectorat de l'Université :** Prof. Dr. Ramón L. Maiha M.
+- **Service Juridique & Responsable PRADA :** M. Manuel Santos (`prada@universiteeuropeenne.paris`)
+- **Direction de la Communication & Coordination (CCO) :** Mme Alicia Bejarano (`cco@universiteeuropeenne.paris`)
+- **Secrétariat Général & Recherches :** `info@universiteeuropeenne.paris`
+- **Ligne directe institutionnelle (WhatsApp) :** `+33 (7) 70 22 36 99`
 
-| Description                         | Accès                                                                             |
-| ----------------------------------- | --------------------------------------------------------------------------------- |
-| Le site Web                         | [par ici 👉](https://github.com/annuaire-entreprises-data-gouv-fr/site)           |
-| Les actions SEO                     | [par ici 👉](https://github.com/annuaire-entreprises-data-gouv-fr/seo)            |
-| L’API du Moteur de recherche        | [par ici 👉](https://github.com/annuaire-entreprises-data-gouv-fr/search-api)     |
-| Pipeline ETL                        | [par ici 👉](https://github.com/annuaire-entreprises-data-gouv-fr/search-infra)   |
-| Le proxy API du site                | [par ici 👉](https://github.com/annuaire-entreprises-data-gouv-fr/api-proxy)      |
-| Tests de pertinence de la recherche | [par ici 👉](https://github.com/annuaire-entreprises-data-gouv-fr/search-testing) |
-| Authentification des outils d’admin | [par ici 👉](https://github.com/annuaire-entreprises-data-gouv-fr/admin-auth)     |
+---
 
-## Développement
+## ⚡ Contexte d’Ingénierie & Retombées R&D (2023–2026)
 
-### Outils
+Ce fork concrétise près de quatre années d'investissements techniques et de recherche appliquée menés par **SAEJEE · Université Européenne de Paris**. L'objectif principal a été de faire évoluer un annuaire national macroscopique (orienté unité légale / SIREN) vers un **moteur de précision orienté établissement (SIRET)** parfaitement intégré dans une architecture d'hébergement institutionnelle.
 
-Le site est une application React construite avec [TanStack Start](https://tanstack.com/start), [TanStack Router](https://tanstack.com/router), Vite et Nitro.
+### Innovations Architecturales Implémentées :
+1. **Résolution Immédiate SIRET avec Cartographie MapLibre :** Détection automatique du siège social ou résolution de l'établissement précis avec chargement instantané de la localisation vectorielle (OpenMapTiles / DINUM).
+2. **Pipeline d'Export PDF WYSIWYG sans surcharge d'API :** Capture du DOM client (incluant la rasterisation sécurisée des canvas WebGL de la carte) et compilation PDF A4 ultra-nette par **Chromium / Playwright** côté serveur, éliminant les temps de latence et les doubles requêtes vers l'INSEE.
+3. **Déploiement Isolé sous Sous-Répertoire (`/mentions-legales/`) :** Réécriture complète du routage Vite/Nitro pour permettre à l'application de tourner en reverse-proxy sous un chemin préfixé strict, sans impacter le CMS parent.
+4. **Passerelle Multilingue Institutionnelle :** Intégration transparente avec les avis légaux du portail universitaire en 5 langues (Français, Espagnol, Anglais, Chinois et Russe).
 
-Nous utilisons [pnpm](https://pnpm.io/) comme gestionnaire de paquets, [Vitest](https://vitest.dev/) pour les tests unitaires et [Playwright](https://playwright.dev/) pour les tests end-to-end.
+---
 
-Nous utilisons [Commit-lint](https://commitlint.js.org/#/) avec [conventional-commits](https://www.conventionalcommits.org/en/v1.0.0-beta.2/#why-use-conventional-commits).
+## 🛠️ Fonctionnalités de cette Version
 
-### Installation
+| Domaine | Comportement implémenté | Limites et Considérations |
+| :--- | :--- | :--- |
+| **Navigation SIRET** | La route entreprise résout le SIRET du siège disponible et redirige vers sa fiche établissement. Les liens vers un établissement permettent de consulter son propre SIRET. | Un SIREN identifie une unité légale ; son siège ne représente pas tous ses établissements. |
+| **Carte interactive** | La fiche établissement conserve la carte MapLibre et la localisation vectorielle disponible. | La disponibilité dépend des coordonnées transmises par les API publiques. |
+| **Établissements multiples** | Liste et pagination complètes accessibles dans la fiche à l’ancre `#etablissements`. | Chaque ligne ouvre l’établissement correspondant avec sa propre fiche. |
+| **PDF haute fidélité** | Export A4 de la fiche chargée : identifiants légaux, état administratif, rubriques, sources, carte géolocalisée et attribution. | La carte est intégrée sous forme d'image rasterisée haute résolution. |
+| **Optimisation des requêtes** | Le moteur PDF réutilise le HTML et les styles transmis depuis la fiche active ; il ne sollicite pas à nouveau les API externes pour composer l'export. | Le chargement initial de la fiche effectue les appels standards vers l'API de recherche. |
+| **Sous-répertoire** | Déploiement natif sous `/mentions-legales/`, avec préfixage strict des liens, assets, appels API et cookies. | Le serveur proxy doit relayer les en-têtes et le chemin complet. |
+| **Profil public sécurisé** | `VITE_PUBLIC_ONLY=true` masque les accès d'authentification réservés (ProConnect) et sécurise l'exposition publique. | Les fonctionnalités d'administration fermées restent désactivées. |
+| **Généricité complète** | Le moteur est universel : il résout l'ensemble des entreprises, associations et administrations du répertoire national français. | Déployé en production pour documenter les données légales de l'Université tout en offrant un service ouvert. |
 
-#### Prérequis
+---
 
-Le projet nécessite [node](https://github.com/nvm-sh/nvm) et pnpm. Les versions attendues sont déclarées dans `package.json` et `.nvmrc`.
+## 📐 Architecture du Pipeline d’Export PDF
 
-```bash
-# Activer pnpm via Corepack si nécessaire
-corepack enable
+Le moteur de génération documentaire a été conçu pour garantir fidélité visuelle, performance et sécurité :
 
-# Installer les dépendances
-pnpm install
 
-# Copier le fichier .env
+```
+
+[ Navigateur Client ]
+│
+├─ 1. Attente du chargement des polices institutionnelles et de MapLibre
+├─ 2. Clonage de la vue établissement (DOM)
+├─ 3. Rasterisation du canvas cartographique en PNG haute définition
+├─ 4. Nettoyage des contrôles UI interactifs (boutons, formulaires)
+│
+▼ Envoi du payload { siret, html, css }
+[ POST /api/fiche-etablissement-pdf ]
+│
+├─ 5. Contrôle strict de sécurité (Payload <= 8 Mo, validation REGEX du SIRET)
+├─ 6. Exécution Playwright (Chromium Headless isolé, JavaScript désactivé)
+├─ 7. Application des styles print @page A4 et pagination
+│
+▼
+[ etablissement--avec-carte.pdf ] (Téléchargement immédiat)
+
+```
+
+> **Nature du document produit :** Ce fichier est un **export technique de consultation**, facilitant les démarches d'audit, d'analyse d'études de marché et d'archivage interne. Il réutilise des données ouvertes administrées par l'État français mais ne remplace pas un extrait officiel émis directement par les greffes ou l'INSEE.
+
+---
+
+## 📂 Repères dans le Code Source
+
+| Fichier Clé | Rôle & Modification |
+| :--- | :--- |
+| `src/routes/_header-default/entreprise.$slug.tsx` | Résolution de l’unité légale et redirection vers le siège SIRET |
+| `src/utils/etablissement-pdf.ts` | Capture de la fiche et conversion des canvas cartographiques côté client |
+| `src/routes/api/fiche-etablissement-pdf.ts` | Endpoint de validation des requêtes et réponse binaire du PDF |
+| `src/server/etablissement-pdf.ts` | Orchestration Playwright / Chromium et styles d'impression |
+| `src/utils/app-path.ts` | Moteur de préfixage pour l'intégration en sous-répertoire |
+| `vite.config.ts` | Configuration Vite/Nitro pour le bundle de production |
+
+---
+
+## 🚀 Installation & Développement Local
+
+Le projet repose sur l'écosystème React moderne : **TanStack Start**, **TanStack Router**, **Vite**, **Nitro**, **MapLibre GL**, **Playwright** et **Vitest**.
+
+### Prérequis
+- **Node.js** `>= 22.22.2`
+- **pnpm** `>= 11.1.2`
+
+```sh
+# 1. Cloner et installer les dépendances
+pnpm install --frozen-lockfile
+
+# 2. Installer Chromium pour le moteur PDF
+pnpm exec playwright install chromium
+
+# Sur serveur Linux (Ubuntu/Debian) installer les bibliothèques système :
+# pnpm exec playwright install --with-deps chromium
+
+# 3. Préparer l'environnement
 cp .env.dev .env
 
-# Lancer le site en développement
+```
+
+### Configuration minimale (`.env`)
+
+```dotenv
+VITE_BASE_URL=http://localhost:3000
+VITE_APP_BASE_PATH=/
+VITE_PUBLIC_ONLY=true
+API_RECHERCHE_ENTREPRISE_URL=[https://recherche-entreprises.api.gouv.fr](https://recherche-entreprises.api.gouv.fr)
+
+```
+
+```sh
+# Lancer en environnement local de développement
 pnpm dev
 
-# Compiler et lancer le serveur de production Nitro
-pnpm build && pnpm start
 ```
 
-Le serveur de développement est disponible par défaut sur `http://localhost:3000`.
+---
 
-Les commandes `pnpm dev` et `pnpm build` compilent automatiquement les données YAML en JSON via `pnpm compile:data`.
+## 🌐 Déploiement en Production (Sous-Répertoire Institutionnel)
 
-#### node-gyp error on mac
+Pour déployer l'annuaire sous une route dédiée (ex. `https://universiteeuropeenne.paris/mentions-legales/`) :
 
-In some case you might need to update xcode command line tools to install dependencies
+```dotenv
+VITE_BASE_URL=[https://universiteeuropeenne.paris/mentions-legales](https://universiteeuropeenne.paris/mentions-legales)
+VITE_APP_BASE_PATH=/mentions-legales/
+VITE_PUBLIC_ONLY=true
+HOST=127.0.0.1
+PORT=3016
+NODE_ENV=production
 
 ```
-sudo rm -rf /Library/Developer/CommandLineTools
-xcode-select --install
+
+```sh
+# Compiler le bundle de production
+pnpm build
+
+# Démarrer le serveur autonome Nitro
+node --env-file=.env --import ./.output/server/instrument.server.mjs .output/server/index.mjs
+
 ```
 
-### Tests
+### Configuration du Reverse Proxy (Nginx)
 
-1. Linter
+Le serveur proxy doit acheminer le trafic de `/mentions-legales/` vers le port configuré (ex. `3016`), tout en servant les fichiers statiques mis en cache depuis `.output/public/assets/`.
 
-```bash
-pnpm lint
-```
+---
 
-2. TypeScript
+## 🧪 Tests & Assurance Qualité (QA)
 
-```bash
+```sh
+# Vérification des types TypeScript
 pnpm typecheck
-```
 
-3. Tests unitaires Vitest
-
-```bash
+# Tests unitaires
 pnpm test:unit
-```
 
-4. Tests API calls
+# Validation du linter
+pnpm lint
 
-```bash
-pnpm test:api-clients
-```
-
-5. Tests de génération des fixtures de recherche d'entreprise
-
-```bash
-pnpm test:e2e:api-recherche
-```
-
-Pour mettre à jour les snapshots Vitest associés :
-
-```bash
-pnpm test:api-clients:update-snapshots
-pnpm test:e2e:api-recherche:update-snapshots
-```
-
-6. Tests end-to-end Playwright
-
-```bash
+# Tests end-to-end complets
 pnpm test:end2end:run
+
 ```
 
-Pour ouvrir l'interface Playwright :
+---
 
-```bash
-pnpm test:end2end:open
-```
+## ⚖️ Sources Officielles, Licences et Neutralité
 
-## Deploiement
+* **Données publiques :** Ce service réutilise les données ouvertes issues de la base SIRENE et de l'[API Recherche d'Entreprises](https://www.data.gouv.fr/dataservices/api-recherche-dentreprises?utm_source=gemini) opérée par la DINUM.
+* **Licence du logiciel :** Le code d'origine de la DINUM est sous **licence libre MIT**. Les travaux d'adaptation, de cartographie directe et d'optimisation documentaire sont maintenus par **SAEJEE · Université Européenne de Paris**.
+* **Avis de non-affiliation :** Cette instance est un projet académique indépendant. Elle ne constitue ni un service gouvernemental officiel, ni une homologation exclusive par la DINUM ou l'INSEE.
 
-Le déploiement se fait par [Github action](https://github.com/annuaire-entreprises-data-gouv-fr/site/actions)
+---
 
-A chaque "merge" sur master :
+**UNIVERSITÉ EUROPÉENNE DE PARIS · Établissement d'Enseignement Supérieur et de Recherche**
 
-- Laissez le déploiement se faire automatiquement sur [staging](https://staging.annuaire-entreprises.data.gouv.fr) via l'action [deploy-staging](https://github.com/annuaire-entreprises-data-gouv-fr/site/actions/workflows/deploy-staging.yml)
-- Vérifiez vos changements sur [staging](https://staging.annuaire-entreprises.data.gouv.fr)
-- Vérifiez que les tests end2end passent sur [recipe-staging](https://github.com/annuaire-entreprises-data-gouv-fr/site/actions/workflows/recipe-staging.yml)
-- Lancez manuellement le déploiement sur [production](https://annuaire-entreprises.data.gouv.fr) : sur [deploy-production](https://github.com/annuaire-entreprises-data-gouv-fr/site/actions/workflows/deploy-production.yml) et cliquez sur "Run workflow" -> "Run workflow"
+*Siège social : 229 Boulevard Voltaire, 75011 Paris, France — SIRET : 399 107 937 00019*
 
-NB: Si plusieurs déploiements sont déclenchés en même temps, seul le premier va jusqu'au bout. Les autres sont automatiquement interrompus.
-
-## Sitemap & scripts SEO
-
-Les actions SEO vivent dans le dépôt dédié [annuaire-entreprises-data-gouv-fr/seo](https://github.com/annuaire-entreprises-data-gouv-fr/seo).
-
-Le script SEO est déclenché deux fois par mois par une GitHub Action. Il génère :
-
-- un ensemble de sitemaps listant les ~8M d'unite legales (~200 fichiers)
-- un arbre de page de resultats statiques avec les ~8M d’UL (~200 000 fichiers)
-
-Les fichiers sont compressés puis stockés dans un artifact et téléchargés lors du déploiement sur les différents environnements.
-
-## Licence
-
-Le code source est publié par la Direction interministérielle du numérique sous [licence MIT](LICENSE).
-
-## Remontée d'erreur
-
-Nous utilisons [Sentry](https://errors.data.gouv) pour remonter les erreurs du site. Voici les bonnes pratiques à suivre pour remonter une erreur :
-
-1. **Utiliser le bon niveau d'erreur**
-
-- `fatal` : une erreur qui empêche tout ou une partie du site de fonctionner. Une page d'erreur est affichée à l'utilisateur.
-- `logErrorInSentry` : une fonctionnalité importante du site ne fonctionne pas.
-- `logWarningInSentry` : une fonctionnalité mineure du site ne fonctionne pas. Un comportement imprévu est arrivé. Non bloquant pour l'utilisateur.
-- `logInfoInSentry` : information sur le comportement du site
-
-2. **Logguer des erreurs et non des string**. Cela permet d'avoir les stacktrace complètes et uniformise l'affichage dans sentry. Pour cela, vous pouvez vous aider de la classe `Exception`
-
-```typescript
-  logErrorInSentry(new Exception({ name: 'RedisClientFailException' });
-```
-
-3. **Remonter des erreurs métiers** : l'erreur doit informer sur ce qui n'a pas fonctionné du point de vue de l'utilisateur. Vous pouvez utiliser le paramètre `cause` pour logguer l'erreur technique à l'origine de l'erreur métier. Vous pouvez également ajouter des informations contextuelles sur l'erreur via le paramètre `context`.
-
-```typescript
-try {
-  // ...
-} catch (e) {
-  logErrorInSentry(
-    new Exception({
-      name: 'AgentConnectionFailedException',
-      message: 'Error during authentication',
-      cause: e,
-      context: {
-        siren,
-        siret,
-        details: agentId,
-      },
-    })
-  );
-}
-```
-
-4. **Utiliser des classes d'erreur spécialisée**.
-
-- `Exception` : erreur métier
-- `InternalError` : bug interne du code qui n'est **jamais** supposé arriver
-- `FetchRessourceException` : erreur lors d'un appel à une API externe
-
-Vous pouvez en créer d'autres en étendant la classe `Exception`.
+Portail officiel : [www.universiteeuropeenne.paris](https://www.universiteeuropeenne.paris?utm_source=gemini)
